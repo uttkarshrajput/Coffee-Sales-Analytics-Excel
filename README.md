@@ -29,9 +29,9 @@ The analysis followed a structured data pipeline:
 
 ---
 
-## Data Modeling (VLOOKUP)
+## Data Modeling (XLOOKUP)
 
-- Instead of relying on simple flat files, I used **VLOOKUP** to build a relational dataset
+- Instead of relying on simple flat files, I used **XLOOKUP** to build a relational dataset
 - Merged customer demographics (Name, Country, Loyalty Status) and product details (Roast Type, Profit Margin) into the main transaction table to create a master dataset for analysis
 
 ---
@@ -50,20 +50,33 @@ The analysis followed a structured data pipeline:
 
 ## Key Findings & Insights
 
-**Market Concentration**  
-The United States is the dominant market, generating over **90% of total revenue ($9,654)**. In contrast, the UK and Ireland markets are significantly under-tapped opportunities.
+### Market Concentration  
+The **United States** is the dominant market, generating **₹35,638.89** in total sales.  
+**Ireland** follows with **₹6,696.87**, while the **United Kingdom** contributes **₹2,798.51**, indicating strong growth potential in both non-US markets.
 
-**Seasonality Trends**  
-Sales consistently spike in **March and June** across multiple years.
+---
 
-**Recommendation**  
-Inventory stocking should be increased by **15% in February and May** to meet this recurring demand surge.
+### Seasonality Trends  
+Sales show consistent increases during **March and June** across multiple years, suggesting recurring demand peaks during late Q1 and early Q2.
 
-**Product Preferences**  
-Arabica and Excelsa beans are the top sellers.
+---
 
-**Loyalty Analysis**  
-While Loyalty Card holders show higher retention, the **Robusta** coffee type has the lowest loyalty usage, indicating a need for a targeted marketing campaign for this segment.
+### Product Performance  
+**Arabica** and **Excelsa** consistently generate the highest monthly sales across most years.  
+**Robusta** shows higher volatility, with sharp spikes in select months (notably during mid-year periods), indicating opportunity for targeted promotional campaigns.
+
+---
+
+### Loyalty & Customer Behavior  
+Markets with higher overall sales volumes, particularly the **United States**, also demonstrate stronger repeat purchase patterns. Lower-performing regions present opportunities for loyalty-driven customer acquisition strategies.
+
+---
+
+### Business Recommendation  
+- Increase inventory levels by **15–20% in February and May** to prepare for seasonal demand spikes in March and June  
+- Expand targeted marketing and loyalty incentives in the **UK and Ireland** to improve market penetration  
+- Focus premium product positioning around **Arabica and Excelsa**, while using promotions to stabilize demand for **Robusta**
+
 
 ---
 
