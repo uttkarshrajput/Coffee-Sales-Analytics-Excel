@@ -1,6 +1,7 @@
 # Strategic Coffee Sales Dashboard
 
-![Dashboard Preview](03_Images/dashboard_screenshot.png)
+![Dashboard Preview](dashboard_screenshot.png/Picture%208.png)
+
 
 > Note: View the interactive dashboard file in the `Cleaned_Data` folder
 
